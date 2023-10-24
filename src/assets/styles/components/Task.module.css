@@ -1,0 +1,49 @@
+.container {
+  padding: 1rem;
+  background-color: rgba(var(--black-rgb), 0.2);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  color: var(--blue-200);
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.task_title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.task_description {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 0.3rem;
+}
+.custom_btn {
+  width: fit-content;
+  height: 2rem;
+  border-radius: 0.3rem;
+  background-color: var(--blue-400);
+  margin-top: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--white);
+  align-self: flex-end;
+}
+.icon_container span {
+  font-size: 1.5;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  color: var(--blue-200);
+}
+.icon_container {
+  display: flex;
+  align-items: center;
+}
